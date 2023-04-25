@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3EB762529BEB3D8006BE531 /* WeatherTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EB762429BEB3D8006BE531 /* WeatherTableViewController.m */; };
+		B3EB762829BEE1D1006BE531 /* WeatherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EB762729BEE1D1006BE531 /* WeatherCell.m */; };
+		B3EB763129BEEAD3006BE531 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EB763029BEEAD3006BE531 /* CustomCell.m */; };
+		B3EB763429BEFE1C006BE531 /* CustomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EB763329BEFE1C006BE531 /* CustomTableViewController.m */; };
+		B3EB763729BF044B006BE531 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EB763629BF044B006BE531 /* DetailViewController.m */; };
+		B3EEC43729BFEDC2008D0831 /* ConstellationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EEC43629BFEDC2008D0831 /* ConstellationViewController.m */; };
+		B3EEC43A29BFF331008D0831 /* ConstellationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EEC43929BFF331008D0831 /* ConstellationDetailViewController.m */; };
+		B3EEC44329C151DC008D0831 /* JSONParsingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EEC44229C151DC008D0831 /* JSONParsingViewController.m */; };
+		B3EEC44929C15560008D0831 /* JSONWeatherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EEC44829C15560008D0831 /* JSONWeatherCell.m */; };
+		B3EEC44C29C15FD1008D0831 /* ImageDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EEC44B29C15FD1008D0831 /* ImageDownloadViewController.m */; };
 		B3EF3F4529B96DAC0030A219 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EF3F4429B96DAC0030A219 /* AppDelegate.m */; };
 		B3EF3F4829B96DAC0030A219 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EF3F4729B96DAC0030A219 /* SceneDelegate.m */; };
 		B3EF3F4B29B96DAC0030A219 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EF3F4A29B96DAC0030A219 /* ViewController.m */; };
@@ -14,9 +24,35 @@
 		B3EF3F5029B96DAE0030A219 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3EF3F4F29B96DAE0030A219 /* Assets.xcassets */; };
 		B3EF3F5329B96DAE0030A219 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3EF3F5129B96DAE0030A219 /* LaunchScreen.storyboard */; };
 		B3EF3F5629B96DAE0030A219 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EF3F5529B96DAE0030A219 /* main.m */; };
+		B3EF3F5E29B9A2B90030A219 /* DigitalFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EF3F5D29B9A2B90030A219 /* DigitalFrameViewController.m */; };
+		B3EF3F6129B9A3D70030A219 /* SignUpScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EF3F6029B9A3D70030A219 /* SignUpScreenViewController.m */; };
+		B3EF3F6529B9C9220030A219 /* MiniBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EF3F6429B9C9220030A219 /* MiniBrowserViewController.m */; };
+		B3EF3F6829BABEC00030A219 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EF3F6729BABEC00030A219 /* WebKit.framework */; };
+		B3EF3F6B29BAEC700030A219 /* FlightBookingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EF3F6A29BAEC700030A219 /* FlightBookingViewController.m */; };
+		B3EF3F6E29BB07CE0030A219 /* SelectCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EF3F6D29BB07CE0030A219 /* SelectCarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B3EB762329BEB3D8006BE531 /* WeatherTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherTableViewController.h; sourceTree = "<group>"; };
+		B3EB762429BEB3D8006BE531 /* WeatherTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherTableViewController.m; sourceTree = "<group>"; };
+		B3EB762629BEE1D1006BE531 /* WeatherCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherCell.h; sourceTree = "<group>"; };
+		B3EB762729BEE1D1006BE531 /* WeatherCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherCell.m; sourceTree = "<group>"; };
+		B3EB762F29BEEAD3006BE531 /* CustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		B3EB763029BEEAD3006BE531 /* CustomCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		B3EB763229BEFE1C006BE531 /* CustomTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTableViewController.h; sourceTree = "<group>"; };
+		B3EB763329BEFE1C006BE531 /* CustomTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewController.m; sourceTree = "<group>"; };
+		B3EB763529BF044B006BE531 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		B3EB763629BF044B006BE531 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		B3EEC43529BFEDC2008D0831 /* ConstellationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstellationViewController.h; sourceTree = "<group>"; };
+		B3EEC43629BFEDC2008D0831 /* ConstellationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConstellationViewController.m; sourceTree = "<group>"; };
+		B3EEC43829BFF331008D0831 /* ConstellationDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstellationDetailViewController.h; sourceTree = "<group>"; };
+		B3EEC43929BFF331008D0831 /* ConstellationDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConstellationDetailViewController.m; sourceTree = "<group>"; };
+		B3EEC44129C151DC008D0831 /* JSONParsingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONParsingViewController.h; sourceTree = "<group>"; };
+		B3EEC44229C151DC008D0831 /* JSONParsingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONParsingViewController.m; sourceTree = "<group>"; };
+		B3EEC44729C15560008D0831 /* JSONWeatherCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONWeatherCell.h; sourceTree = "<group>"; };
+		B3EEC44829C15560008D0831 /* JSONWeatherCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONWeatherCell.m; sourceTree = "<group>"; };
+		B3EEC44A29C15FD1008D0831 /* ImageDownloadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageDownloadViewController.h; sourceTree = "<group>"; };
+		B3EEC44B29C15FD1008D0831 /* ImageDownloadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageDownloadViewController.m; sourceTree = "<group>"; };
 		B3EF3F4029B96DAC0030A219 /* Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3EF3F4329B96DAC0030A219 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B3EF3F4429B96DAC0030A219 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +65,18 @@
 		B3EF3F5229B96DAE0030A219 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3EF3F5429B96DAE0030A219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3EF3F5529B96DAE0030A219 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3EF3F5C29B9A2B90030A219 /* DigitalFrameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DigitalFrameViewController.h; sourceTree = "<group>"; };
+		B3EF3F5D29B9A2B90030A219 /* DigitalFrameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DigitalFrameViewController.m; sourceTree = "<group>"; };
+		B3EF3F5F29B9A3D70030A219 /* SignUpScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignUpScreenViewController.h; sourceTree = "<group>"; };
+		B3EF3F6029B9A3D70030A219 /* SignUpScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignUpScreenViewController.m; sourceTree = "<group>"; };
+		B3EF3F6229B9ABA90030A219 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		B3EF3F6329B9C9220030A219 /* MiniBrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiniBrowserViewController.h; sourceTree = "<group>"; };
+		B3EF3F6429B9C9220030A219 /* MiniBrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiniBrowserViewController.m; sourceTree = "<group>"; };
+		B3EF3F6729BABEC00030A219 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		B3EF3F6929BAEC700030A219 /* FlightBookingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlightBookingViewController.h; sourceTree = "<group>"; };
+		B3EF3F6A29BAEC700030A219 /* FlightBookingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlightBookingViewController.m; sourceTree = "<group>"; };
+		B3EF3F6C29BB07CE0030A219 /* SelectCarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectCarViewController.h; sourceTree = "<group>"; };
+		B3EF3F6D29BB07CE0030A219 /* SelectCarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectCarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3EF3F6829BABEC00030A219 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +96,7 @@
 			children = (
 				B3EF3F4229B96DAC0030A219 /* Practice */,
 				B3EF3F4129B96DAC0030A219 /* Products */,
+				B3EF3F6629BABEBF0030A219 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,8 +122,47 @@
 				B3EF3F5129B96DAE0030A219 /* LaunchScreen.storyboard */,
 				B3EF3F5429B96DAE0030A219 /* Info.plist */,
 				B3EF3F5529B96DAE0030A219 /* main.m */,
+				B3EF3F5C29B9A2B90030A219 /* DigitalFrameViewController.h */,
+				B3EF3F5D29B9A2B90030A219 /* DigitalFrameViewController.m */,
+				B3EF3F5F29B9A3D70030A219 /* SignUpScreenViewController.h */,
+				B3EF3F6029B9A3D70030A219 /* SignUpScreenViewController.m */,
+				B3EF3F6229B9ABA90030A219 /* Header.h */,
+				B3EF3F6329B9C9220030A219 /* MiniBrowserViewController.h */,
+				B3EF3F6429B9C9220030A219 /* MiniBrowserViewController.m */,
+				B3EF3F6929BAEC700030A219 /* FlightBookingViewController.h */,
+				B3EF3F6A29BAEC700030A219 /* FlightBookingViewController.m */,
+				B3EF3F6C29BB07CE0030A219 /* SelectCarViewController.h */,
+				B3EF3F6D29BB07CE0030A219 /* SelectCarViewController.m */,
+				B3EB762329BEB3D8006BE531 /* WeatherTableViewController.h */,
+				B3EB762429BEB3D8006BE531 /* WeatherTableViewController.m */,
+				B3EB762629BEE1D1006BE531 /* WeatherCell.h */,
+				B3EB762729BEE1D1006BE531 /* WeatherCell.m */,
+				B3EB762F29BEEAD3006BE531 /* CustomCell.h */,
+				B3EB763029BEEAD3006BE531 /* CustomCell.m */,
+				B3EB763229BEFE1C006BE531 /* CustomTableViewController.h */,
+				B3EB763329BEFE1C006BE531 /* CustomTableViewController.m */,
+				B3EB763529BF044B006BE531 /* DetailViewController.h */,
+				B3EB763629BF044B006BE531 /* DetailViewController.m */,
+				B3EEC43529BFEDC2008D0831 /* ConstellationViewController.h */,
+				B3EEC43629BFEDC2008D0831 /* ConstellationViewController.m */,
+				B3EEC43829BFF331008D0831 /* ConstellationDetailViewController.h */,
+				B3EEC43929BFF331008D0831 /* ConstellationDetailViewController.m */,
+				B3EEC44129C151DC008D0831 /* JSONParsingViewController.h */,
+				B3EEC44229C151DC008D0831 /* JSONParsingViewController.m */,
+				B3EEC44729C15560008D0831 /* JSONWeatherCell.h */,
+				B3EEC44829C15560008D0831 /* JSONWeatherCell.m */,
+				B3EEC44A29C15FD1008D0831 /* ImageDownloadViewController.h */,
+				B3EEC44B29C15FD1008D0831 /* ImageDownloadViewController.m */,
 			);
 			path = Practice;
+			sourceTree = "<group>";
+		};
+		B3EF3F6629BABEBF0030A219 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3EF3F6729BABEC00030A219 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,6 +196,7 @@
 				TargetAttributes = {
 					B3EF3F3F29B96DAC0030A219 = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 				};
 			};
@@ -146,10 +236,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3EB763429BEFE1C006BE531 /* CustomTableViewController.m in Sources */,
+				B3EF3F6529B9C9220030A219 /* MiniBrowserViewController.m in Sources */,
+				B3EEC44929C15560008D0831 /* JSONWeatherCell.m in Sources */,
 				B3EF3F4B29B96DAC0030A219 /* ViewController.m in Sources */,
+				B3EB762829BEE1D1006BE531 /* WeatherCell.m in Sources */,
 				B3EF3F4529B96DAC0030A219 /* AppDelegate.m in Sources */,
 				B3EF3F5629B96DAE0030A219 /* main.m in Sources */,
+				B3EF3F5E29B9A2B90030A219 /* DigitalFrameViewController.m in Sources */,
+				B3EEC43A29BFF331008D0831 /* ConstellationDetailViewController.m in Sources */,
 				B3EF3F4829B96DAC0030A219 /* SceneDelegate.m in Sources */,
+				B3EF3F6E29BB07CE0030A219 /* SelectCarViewController.m in Sources */,
+				B3EEC44C29C15FD1008D0831 /* ImageDownloadViewController.m in Sources */,
+				B3EEC44329C151DC008D0831 /* JSONParsingViewController.m in Sources */,
+				B3EF3F6B29BAEC700030A219 /* FlightBookingViewController.m in Sources */,
+				B3EEC43729BFEDC2008D0831 /* ConstellationViewController.m in Sources */,
+				B3EB762529BEB3D8006BE531 /* WeatherTableViewController.m in Sources */,
+				B3EF3F6129B9A3D70030A219 /* SignUpScreenViewController.m in Sources */,
+				B3EB763129BEEAD3006BE531 /* CustomCell.m in Sources */,
+				B3EB763729BF044B006BE531 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +395,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2DBARTRT37;
@@ -300,6 +406,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +415,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wony.Practice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Practice/Practice-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -317,6 +427,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2DBARTRT37;
@@ -327,6 +438,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,6 +447,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wony.Practice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Practice/Practice-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

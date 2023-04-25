@@ -8,7 +8,7 @@
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
-
+    
 @end
 
 @implementation AppDelegate
@@ -16,6 +16,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // 진입 View 지정
+    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+
+    UIViewController *viewController = [[UIViewController alloc] init];
+    viewController = [storyboard instantiateViewControllerWithIdentifier:@"ImageDownloadViewController"];
+
+    UINavigationController *navigationContoller = [[UINavigationController alloc] initWithRootViewController: viewController];
+
+    self.window.rootViewController = navigationContoller;
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 
